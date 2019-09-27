@@ -5,9 +5,9 @@ class SuperHero
   @@all = []
   
   def initialize(params)
-    @name = name 
-    @power = power 
-    @biography = biography
+    @name = params[:name] 
+    @power = params[:power]  
+    @biography = params[:biography] 
     @@all << self
   end
   
