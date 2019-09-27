@@ -4,7 +4,7 @@ class SuperHero
   
   @@all = []
   
-  def initialize(name, power, biography)
+  def initialize(params)
     @name = name 
     @power = power 
     @biography = biography
