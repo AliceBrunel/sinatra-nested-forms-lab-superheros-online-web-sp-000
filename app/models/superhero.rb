@@ -5,6 +5,9 @@ class SuperHero
   @@all = []
   
   def initialize 
+    @name = name 
+    @power = power 
+    @biography = biography
     @@all << self
   end
   
