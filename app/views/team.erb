@@ -2,7 +2,7 @@
 <h2>Team Motto:<%= @team.motto %></h2>
 
 <% @super_hero.each do |superhero| %>
-<h2>Hero Name: <%= @super_hero.name %> </h2>
-<p>Hero Power: <%= @super_hero.power %><br>
-Hero Biography: <%= @super_hero.biography %></p>
+<h2>Hero Name: <%= superhero.name %> </h2>
+<p>Hero Power: <%= superhero.power %><br>
+Hero Biography: <%= superhero.biography %></p>
 <% end %>
